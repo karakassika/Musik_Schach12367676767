@@ -2,6 +2,8 @@
 # (str) Titel deiner App
 title = Schach Trainer
 
+source.dir = .
+
 # (str) Paketname
 package.name = schachtrainer
 
