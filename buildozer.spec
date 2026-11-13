@@ -37,6 +37,9 @@ android.min_api = 21
 # (str) Android SDK accept license (True or False)
 android.accept_sdk_license = True
 
+# (str) Stabile Build-Tools Version, um Fehler zu vermeiden
+android.build_tools_version = 33.0.2
+
 [buildozer]
 
 # (int) Loglevel (0 = error only, 1 = info, 2 = debug (with command output))
