@@ -43,7 +43,7 @@ jobs:
     - name: Build with Buildozer
       run: |
         export BUILDOZER_ANDROID_NDK="25.2.9519653"
-        buildozer -v android debug || (echo "=== BUILD FAILED ===" && tail -n 100 /home/runner/.buildozer/android/platform/build-arm64-v8a/dists/schachtrainer/.buildozer-row.log || true)
+        buildozer -v android debug
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
