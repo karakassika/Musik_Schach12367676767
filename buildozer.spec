@@ -19,8 +19,8 @@ source.main_ext = py
 # (list) Anwendungsversion
 version = 0.1
 
-# (list) Verwendete Python-Pakete inklusive gtts und Netzwerktreibern
-requirements = python3,chess,gtts,requests,urllib3,idna,certifi,charset-normalizer
+# (list) Verwendete Python-Pakete inklusive gtts, Netzwerktreibern und OpenSSL
+requirements = python3,chess,gtts,requests,urllib3,idna,certifi,charset-normalizer,openssl,libffi
 
 # (list) Android-Berechtigungen (INTERNET wird für gtts zwingend benötigt)
 android.permissions = INTERNET
