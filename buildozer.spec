@@ -19,11 +19,11 @@ source.main_ext = py
 # (list) Anwendungsversion
 version = 0.1
 
-# (list) Verwendete Python-Pakete (wichtig für Schach und Logik)
-requirements = python3,chess,gtts
+# (list) Verwendete Python-Pakete (ohne gtts zum Testen)
+requirements = python3,chess
 
-# (list) Android-Berechtigungen (INTERNET für Online/TTS, RECORD_AUDIO für die Sprache)
-android.permissions = INTERNET,RECORD_AUDIO
+# (list) Android-Berechtigungen (INTERNET für Online-Funktionen)
+android.permissions = INTERNET
 
 # (str) Orientierung der App (hier Quer- oder Hochformat)
 orientation = portrait
@@ -37,7 +37,7 @@ android.min_api = 21
 # (str) Android SDK accept license (True or False)
 android.accept_sdk_license = True
 
-# (str) Stabile Build-Tools Version, um Fehler zu vermeiden
+# (str) Stabile Build-Tools Version
 android.build_tools_version = 33.0.2
 
 [buildozer]
