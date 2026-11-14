@@ -19,10 +19,10 @@ source.main_ext = py
 # (list) Anwendungsversion
 version = 0.1
 
-# (list) Verwendete Python-Pakete (ohne gtts zum Testen)
-requirements = python3,chess
+# (list) Verwendete Python-Pakete inklusive gtts und Netzwerktreibern
+requirements = python3,chess,gtts,requests,urllib3,idna,certifi,charset-normalizer
 
-# (list) Android-Berechtigungen (INTERNET für Online-Funktionen)
+# (list) Android-Berechtigungen (INTERNET wird für gtts zwingend benötigt)
 android.permissions = INTERNET
 
 # (str) Orientierung der App (hier Quer- oder Hochformat)
