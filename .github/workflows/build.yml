@@ -40,6 +40,10 @@ jobs:
         pip install --upgrade pip
         pip install --user --upgrade cython==0.29.36 buildozer
 
+    - name: Clean previous builds
+      run: |
+        rm -rf .buildozer bin
+
     - name: Build with Buildozer
       run: |
         export BUILDOZER_ANDROID_NDK="25.2.9519653"
